@@ -61,3 +61,35 @@
 .poster-info .ant-rate-star:not(:last-child) {
     margin-right: 2px;
 }
+.poster-info__list-item{
+    white-space: nowrap;
+}
+@media (max-width: 420px) {
+    .poster {
+        display: block;
+        max-width: 380px;
+    }
+    .poster__preview {
+        float: left;
+        margin-right: 13px;
+    }
+    .poster-preview__img {
+        width: 60px;
+        height: 90px;
+    }
+    .poster-info__annotation{
+        clear: both;
+    }
+    .poster__info{
+        padding: 0;
+    }
+    .poster-list__item{
+        margin-right: 0;
+    }
+    .poster-list .ant-rate{
+        display: flex;
+    }
+    .ant-rate .ant-rate-star:first-child {
+        margin-left: auto;
+    }
+}
