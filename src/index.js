@@ -78,9 +78,9 @@ class App extends React.Component {
   };
   render() {
     const { loading, error, totalPages, genres, currentTab } = this.state;
-    const hasTrue = !error.status && !loading;
+    const hasTrue = error.status === false && loading === false;
     const spin =
-      loading === hasTrue ? (
+       loading === true ? (
         <div className="spin-container">
           <Spin size="large" />
         </div>
