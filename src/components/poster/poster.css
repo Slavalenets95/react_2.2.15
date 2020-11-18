@@ -1,0 +1,63 @@
+.poster{
+    display: flex;
+}
+.poster-preview__img{
+    width: 185px;
+    height: 280px;
+}
+.poster__info{
+    padding: 12px 9px 0 20px;
+    font-size: 12px;
+}
+.poster-info__header{
+    display: flex;
+    align-items: center;
+}
+.poster-info__rating{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+}
+.poster-info__title{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-right: 3px;
+    line-height: 1.2;
+}
+.poster-info__rating{
+    border: solid 2px #E9D100;
+    border-radius: 50%;
+    padding: 8px 6px;
+    margin-bottom: 0;
+}
+.poster-info__date {
+    margin-top: 7px;
+    color: #827E7E;
+}
+.poster-info__list{
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 0.65);
+    display: flex;
+}
+.poster-info__list-item{
+    padding: 2px 4px 3px 5px;
+    border: 1px solid #D9D9D9;
+}
+.poster-info__list-item:not(:first-child) {
+    margin-left: 8px;
+}
+.poster-info__annotation{
+    margin-top: 7px;
+    line-height: 22px;
+}
+.ant-pagination{
+    text-align: center;
+    margin-top: 40px !important;
+}
+.poster-info .ant-rate-star:not(:last-child) {
+    margin-right: 2px;
+}

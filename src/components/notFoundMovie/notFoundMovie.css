@@ -1,0 +1,12 @@
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error__text{
+    font-size: 20px;
+}
+.error__image{
+    max-width: 200px;
+    max-height: 200px;
+}
